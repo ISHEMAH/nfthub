@@ -9,3 +9,8 @@ export interface MyButtonProps {
     containerStyles?:string;
 
 }
+
+export interface CounterProps{
+    number:number;
+    title:string;
+}
