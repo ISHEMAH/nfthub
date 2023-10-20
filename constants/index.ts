@@ -7,3 +7,10 @@ export const navLinks = [
 
 
 ]
+export const PartnersLinks = [
+    {name:'metamask',image:'metamask.svg',link:'/'},
+    {name:'exodus',image:'exodus.svg',link:'/'},
+    {name:'safepal',image:'safepal.svg',link:'/'},
+    {name:'trustwallet',image:'trustwallet.svg',link:'/'},
+    {name:'walletconnect',image:'walletconnect.svg',link:'/'}
+]

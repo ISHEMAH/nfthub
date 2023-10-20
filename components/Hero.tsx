@@ -3,6 +3,7 @@ import { MyButton } from '.'
 import Image from 'next/image'
 import {Counter} from '.'
 
+
 const Hero = () => {
   return (
     <div id='hero' className='w-full items-start lg:px-[150px] py-44 px-10 max-md:flex-col flex flex-row'>
