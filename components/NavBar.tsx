@@ -6,7 +6,7 @@ import { MyButton } from '.'
 
 const NavBar = () => {
   return (
-    <div className='w-full lg:px-[150px] fixed bg-[#141943]/80 backdrop-blur-md z-50 px-8 py-5 flex items-center justify-between '>
+    <div className='w-full lg:px-[150px] fixed bg-[#141943]/80 backdrop-blur-md z-40 px-8 py-5 flex items-center justify-between '>
       <div className='w-fit h-fit'>
         <Image src="/logo.svg" alt='logo' width={100} height={60}/>
       </div>

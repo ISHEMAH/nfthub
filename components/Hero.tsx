@@ -6,7 +6,7 @@ import {Counter} from '.'
 
 const Hero = () => {
   return (
-    <div id='hero' className='w-full items-start lg:px-[150px] py-44 px-10 max-md:flex-col flex flex-row'>
+    <div id='hero' className='w-full items-start lg:px-[150px] py-44 px-10 max-md:flex-col flex md:mb-8 flex-row'>
       <div className='md:w-1/2 w-full flex relative flex-col max-md:items-center gap-14'>
         <p className='text-white clash-medium text-6xl'>
             Discover <br/>Collect & Sell <span className='clash-semibold text-gradient'>Extraordinary</span> NFTs 
@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
       </div>
       <div className='md:w-1/2 w-full relative flex flex-col max-md:items-center '>
-        <Image src='/heroimage.svg' alt='cover' width={1000} height={1000} className='w-full absolute -top-32'/>
+        <Image src='/heroimage.svg' alt='cover' width={1000} height={1000} className='w-full absolute md:-top-32 '/>
       </div>
     </div>
   )
